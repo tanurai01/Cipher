@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+  }
+  
+  #heading{
+      background-color:darkcyan;
+      text-align: center;
+      color:antiquewhite;
+      font-size:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:0px;
+  }
+    #mood-check{
+        color:white;
+    }
+  .mood-selector {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+     
+  }
+  
+  .mood-button {
+      background-color: #fff;
+      border: 2px solid #3498db;
+      color: #3498db;
+      padding: 15px 20px;
+      margin: 0 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  div ul {
+      display:flexbox;
+      list-style-type: none;
+      background-color:lightblue;
+      margin: 0;
+      padding: 25px;
+      text-align: center;
+  }
+  
+  div ul li {
+    color:midnightblue;
+      display: inline;
+      margin:  25px;
+      text-align:center;
+  }
+  
+  div a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-align:center;
+  }
+  
+  
+  .mood-button:hover {
+      background-color: #3498db;
+      color: white;
+  }
+  #recommendations{
+    color:white;
+  }
+  #relaxation{
+    color:white;
+    
+  }
+  /* Relaxation Grid */
+  .relaxation-grid {
+    height:250px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+  }
+  
+  .relax-item {
+    height: 250px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #tips{
+    background-color:lightblue;
+  }
+  
+  /* Footer */
+  footer {
+      text-align: center;
+      background-color: #3498db;
+      padding: 10px;
+      color: white;
+  }
