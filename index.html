@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUSPARK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 id="heading">Welcome to EduSpark!</h1>
+    </div>
+    <div>
+        <ul>
+            <li><a href="#mood-check"  style="color:midnightblue;">Mood Check-In</a></li>
+            <li><a href="#stress-assessment"  style="color:midnightblue;">Stress Assessment</a></li>
+            <li><a href="#recommendations"  style="color:midnightblue;">AI Suggestions</a></li>
+            <li><a href="#relaxation"  style="color:midnightblue;">Relaxation Tools</a></li>
+            <li><a href="#analytics" style="color:midnightblue;">Mood Analytics</a></li>
+        </ul>
+    </div>
+    <section id="mood-check">
+        <h2>How are you feeling today?</h2>
+        <div class="mood-selector">
+            <button class="mood-button happy">😊 Happy</button>
+            <button class="mood-button neutral">😐 Neutral</button>
+            <button class="mood-button sad">😢 Sad</button>
+        </div>
+    </section>
+
+    <section id="stress-assessment">
+        <h2>Stress Assessment</h2>
+        <p>Answer a few quick questions to assess your stress level.</p>
+        <form id="assessment-form">
+            <!-- Questions go here -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+ 
+    <section id="recommendations">
+        <h2>Your AI-Driven Recommendations</h2>
+        <div id="ai-recommendations">
+            <!-- AI suggestions will populate here -->
+        </div>
+    </section>
+
+    <section id="relaxation">
+        <h2>Relaxation Techniques</h2>
+        <div class="relaxation-grid">
+            <div class="relax-item">
+                <h3 style="color:black;">Breathing Exercise</h3>
+                <ul id="breathing">
+                    <li>Sit or Lie Comfortably: Find a quiet place where you can sit or lie down comfortably without distractions.</li>
+                <br>
+                <li>Inhale Slowly: Close your eyes. Inhale quietly through your nose for a count of 4.</li>
+               <br>
+                <li> Hold Your Breath: Hold your breath for a count of 7. </li>
+                <br>
+                <li>Exhale Slowly: Exhale completely through your mouth, making a whooshing sound for a count of 8. </li>
+                
+            </ul>
+         
+           
+            </div>
+            <div class="relax-item">
+                
+            <h3 style="color:black;">Study Break Tips</h3>
+            <section id="tips">
+                <p style="color:black;">Take 5-minute breaks every 25 minutes...</p>
+                <p style="color:black;">Stretch or Move: Do a quick stretch or walk.</p>
+                <p style="color:black;">Hydrate & Snack: Drink water or eat a light snack.</p>
+                <p style="color:black;">Power Nap: Take a 10-20 minute nap if needed.</p>
+                <p style="color:black;">Mindfulness: Practice a brief mindfulness or meditation session.</p>
+            </section>
+            </div>
+        </div>
+    </section>
+
+    <section id="analytics">
+        <h2>Your Mood Over Time</h2>
+        <canvas id="mood-chart"></canvas>
+    </section>
+
+    <footer>
+        <p>&copy;> www.eduspark.com</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
